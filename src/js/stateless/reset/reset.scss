@@ -1,0 +1,39 @@
+/*
+|--------------------------------------------------------------------------
+| Reset
+|--------------------------------------------------------------------------
+| @namespace: rst-
+|
+*/
+.rst-Reset {
+  justify-content: center;
+  display: flex;
+  margin-top: 62px;
+}
+
+.rst-Reset_Button {
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  width: 80px;
+  height: 80px;
+  padding: 16px;
+
+  background-color: var(--Color_Brand);
+  border-radius: 100%;
+  border: 2px solid var(--Color_Brand);
+
+  transition: transform 0.4s;
+
+  &:hover {
+    transform: rotate(-40deg);
+  }
+
+  svg {
+    width: 100%;
+    margin-left: 5px;
+
+    fill: #fff;
+  }
+}

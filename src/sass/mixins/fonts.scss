@@ -1,0 +1,27 @@
+/*
+|--------------------------------------------------------------------------
+| Fonts
+|--------------------------------------------------------------------------
+|
+*/
+@mixin Font_16-32 {
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+@mixin Font_32-48 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+@mixin Font_56-72 {
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+

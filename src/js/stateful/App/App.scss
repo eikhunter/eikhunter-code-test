@@ -1,0 +1,27 @@
+/*
+|--------------------------------------------------------------------------
+| Content
+|--------------------------------------------------------------------------
+| @namespace: lyt-
+|
+*/
+@import "../../../sass/app";
+
+.lyt-Content {
+  align-items: center;
+  justify-content: center;
+
+  display: flex;
+  min-height: 100vh;
+
+  background: var(--Color_Gradient);
+}
+
+.lyt-Content_Inner {
+  @include Font_16-32;
+}
+
+.lyt-Content_Body {
+  width: calc(8 / 12 * 100%);
+  margin: 0 auto;
+}

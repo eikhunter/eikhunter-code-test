@@ -1,0 +1,57 @@
+/* We use an order that is beneficial for a 'settings' file */
+:root {
+  /*
+  |--------------------------------------------------------------------------
+  | Colours
+  |--------------------------------------------------------------------------
+  |
+  */
+  --Color_Brand: #fec3d6;
+  --Color_Brand-secondary: #ced7fe;
+
+  --Color_Anchor: var(--Color_Blue);
+  --Color_Body: #000000;
+  --Color_Border: #d7d7d7;
+
+  --Color_Gradient: linear-gradient(45deg, #fec3d6 0%,#ced7fe 100%);
+
+  /*
+  |--------------------------------------------------------------------------
+  | Fonts
+  |--------------------------------------------------------------------------
+  |
+  */
+  /**
+  * Font - Families
+  */
+  --Font_Family: 'Raleway', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --Font_Family-body: var(--Font_Family);
+  --Font_Family-nunito: 'Nunito', san-serif;
+
+  /*
+  |----------------------------------------------------------s----------------
+  | Grid
+  |--------------------------------------------------------------------------
+  |
+  */
+  --Grid_Container: 1400px;
+  --Grid_Gutter: 16px;
+
+  /*
+  |--------------------------------------------------------------------------
+  | Miscellaneous
+  |--------------------------------------------------------------------------
+  |
+  */
+  --Global_Radius: 16px;
+  --Global_Transition: 0.2s;
+  --Transition_EaseOutBack: cubic-bezier(0.175, 0.885, 0.32, 1.075);
+
+  /*
+  |--------------------------------------------------------------------------
+  | Box-shadows
+  |--------------------------------------------------------------------------
+  |
+  */
+  --Box_Shadow: 0 2px 20px 1px rgba(0, 0, 0, 0.2);
+}

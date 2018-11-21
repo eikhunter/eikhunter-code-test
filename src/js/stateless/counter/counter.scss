@@ -1,0 +1,47 @@
+/*
+|--------------------------------------------------------------------------
+| Counter
+|--------------------------------------------------------------------------
+| @namespace: cnt-
+|
+*/
+@import "../../../sass/app";
+
+.cnt-Counter {
+  padding: 32px;
+
+  background-color: #fff;
+  border-radius: var(--Global_Radius);
+
+  text-align: center;
+
+  box-shadow: var(--Box_Shadow);
+}
+
+.cnt-Counter_Title {
+  @include Font_32-48;
+
+  font-weight: 400;
+}
+
+.cnt-Counter_Title-alternative {
+  display: block;
+  
+  font-weight: 600;
+
+  color: var(--Color_Brand);
+}
+
+.cnt-Counter_Text {
+  @include Font_56-72;
+
+  margin-top: 16px;
+
+  color: var(--Color_Border);
+}
+
+.cnt-Counter_Button {
+  @include Button-primary;
+
+  margin-top: 32px;
+}
